@@ -1,0 +1,28 @@
+# === IntelliJ / Java ===
+*.class
+*.log
+/.idea/
+/*.iml
+/target/
+/out/
+/build/
+/.gradle/
+/mvnw
+/.mvn/wrapper/maven-wrapper.jar
+
+# === Android Studio ===
+local.properties
+/.gradle
+/captures
+*/build
+*.apk
+*.ap_
+*.dex
+*.keystore
+*.jks
+*.so
+*.aar
+
+# === System files ===
+.DS_Store
+Thumbs.db

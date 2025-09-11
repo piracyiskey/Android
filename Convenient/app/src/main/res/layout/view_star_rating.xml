@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/starRatingContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/txtAverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.5"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginEnd="4dp" />
+
+    <!-- 5 star icons -->
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:tint="@color/yellow" />
+    <ImageView android:id="@+id/star2" android:layout_width="20dp" android:layout_height="20dp" app:tint="@color/yellow" />
+    <ImageView android:id="@+id/star3" android:layout_width="20dp" android:layout_height="20dp" app:tint="@color/yellow"/>
+    <ImageView android:id="@+id/star4" android:layout_width="20dp" android:layout_height="20dp" app:tint="@color/yellow"/>
+    <ImageView android:id="@+id/star5" android:layout_width="20dp" android:layout_height="20dp" app:tint="@color/yellow"/>
+
+    <TextView
+        android:id="@+id/txtReviewCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(89 đánh giá)"
+        android:textSize="14sp"
+        android:layout_marginStart="4dp"
+        android:textColor="@android:color/black" />
+</LinearLayout>

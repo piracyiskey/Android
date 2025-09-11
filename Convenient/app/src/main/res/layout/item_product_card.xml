@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:elevation="4dp"
+    android:radius="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="14dp"
+        android:background="@android:color/white">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/imageProduct"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+             />
+
+        <!-- Heart Icon -->
+        <ImageView
+            android:id="@+id/imageFavorite"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_heart"
+            android:contentDescription="Favorite" />
+
+        <!-- Price -->
+        <TextView
+            android:id="@+id/textPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageProduct"
+            android:layout_marginTop="8dp"
+            android:text="89.000 VND"
+            android:textColor="@color/secondary"
+            android:textStyle="bold" />
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textPrice"
+            android:text="Tên sản phẩm"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <!-- Per -->
+        <TextView
+            android:id="@+id/textPer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textName"
+            android:text="1 kg"
+            android:textColor="@android:color/darker_gray" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

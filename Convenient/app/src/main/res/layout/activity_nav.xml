@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Fragment container -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Bottom Navigation View (only 3 items now) -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@color/bottom_nav_color_selector"
+        app:itemTextColor="@color/bottom_nav_color_selector" />
+
+    <!-- Custom circular Cart button -->
+    <ImageButton
+        android:id="@+id/btn_cart"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/bg_cart_button"
+        android:src="@drawable/ic_cart1"
+        android:elevation="8dp"
+        android:scaleType="center"
+        android:contentDescription="Cart"
+        app:tint="@android:color/white" />
+
+    <!-- Cart Badge -->
+    <TextView
+        android:id="@+id/cart_badge"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/bg_cart_badge"
+        android:elevation="10dp"
+        android:scaleType="center"
+        android:text="3"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:gravity="center"
+         />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Convenient"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OrderDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FinishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CartEmptyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ReviewAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProductHotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProductDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProductListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.NavActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LoggedInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.VerifyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RecoveryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RecoveryActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OnboardingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

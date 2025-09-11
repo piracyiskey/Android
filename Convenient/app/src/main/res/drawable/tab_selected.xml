@@ -1,0 +1,10 @@
+<!-- res/drawable/tab_selected.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="3"
+        android:startColor="#11998E"
+        android:endColor="#38EF7D"
+        android:type="linear">
+    </gradient>
+    <corners android:radius="12dp" />
+</shape>

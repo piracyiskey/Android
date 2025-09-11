@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">#008163</item>
+        <item name="hintTextColor">#008163</item>
+    </style>
+
+    <style name="OtpBoxStyle">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:background">@drawable/otp_box</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="PaymentTabStyle">
+        <item name="android:background">@drawable/tab_unselected</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>
