@@ -26,16 +26,7 @@ The project follows a **client-server architecture** with:
 
 ## 🎬 Demo Video
 
-<p align="center">
-  <a href="https://youtu.be/YOUR_VIDEO_ID">
-    <img src="https://img.shields.io/badge/▶_Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo Video"/>
-  </a>
-</p>
-
-<!-- Replace the link above with your actual demo video URL -->
-<!-- Supported formats: YouTube, Google Drive, or direct .mp4 link -->
-
-> **📌 Note:** Replace `https://youtu.be/YOUR_VIDEO_ID` with the actual URL of your demo video.
+[![MetroMini Demo Video](screenshot/Thumbnail.png)](https://drive.google.com/file/d/1Hw9k6T_SnRxMaT_knITEKtGrfqPN85YL/view?usp=drive_link)
 
 ---
 
