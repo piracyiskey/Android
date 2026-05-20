@@ -26,7 +26,7 @@ The project follows a **client-server architecture** with:
 
 ## 🎬 Demo Video
 
-[![MetroMini Demo Video](screenshot/Thumbnail.png)](https://drive.google.com/file/d/1Hw9k6T_SnRxMaT_knITEKtGrfqPN85YL/view?usp=drive_link)
+[![MetroMini Demo Video](screenshots/Thumbnail.png)](https://drive.google.com/file/d/1Hw9k6T_SnRxMaT_knITEKtGrfqPN85YL/view?usp=drive_link)
 
 ---
 
